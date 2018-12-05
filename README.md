@@ -14,10 +14,6 @@ This project was created to automate the continuous integration into the develop
 2. Download repository
 3. Enter to folder with vagrant file and run command "vagrant up" via PowerShell or CLI
 
-```
-Give the example
-```
-
 ### Prerequisites
 
 All software will be installed automatically by the PowerShell script.
