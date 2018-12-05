@@ -11,11 +11,12 @@ This project must deploy ASP.NET MVC application "Bookstore" created in C # auto
 - MSSQL - EXPRESS General Availability;
 - Git
 
-### Installing
+### Quick Start
 
 1. Install programs from toolset. 
 2. Download repository
-3. Enter to folder with vagrant file and run command "vagrant up" via PowerShell or CLI
+3. Open and edit a path-line in the Vagrantfile to the file "config.vm.synced_folder" to the actual one.
+4. Enter to folder with vagrant file and run command "vagrant up" via PowerShell or CLI
 
 ### Prerequisites
 
