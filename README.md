@@ -2,39 +2,36 @@
 
 This project was created to automate the continuous integration into the development environment and minimize manual operations.
 
-## Getting Started
+# Toolset
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+- Vagrant [v 2.2.2 recommended]
+- Oracle VirtualBox [v 5.2.22]
+- Git
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+1. Install programs from toolset. 
+2. Download repository
+3. Enter to folder with vagrant file and run command "vagrant up" via PowerShell or CLI
 
 ```
 Give the example
 ```
 
-And repeat
+### Prerequisites
+
+All software will be installed automatically by the PowerShell script.
 
 ```
-until finished
+Set-ExecutionPolicy Bypass -Scope Process -Force 
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n allowGlobalConfirmation
+choco install git.install
+choco install microsoft-build-tools
+choco install nuget.commandline
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+Import-Module WebAdministration
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
