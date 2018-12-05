@@ -2,6 +2,8 @@
 
 This project was created to automate the continuous integration into the development environment and minimize manual operations.
 
+This project must deploy ASP.NET MVC application "Bookstore" created in C # automatically into Microsoft virtual machine Server 2016, where it will be built using MSBuild and deployed to the IIS server.
+
 # Toolset
 
 - Vagrant [v 2.2.2 recommended]
