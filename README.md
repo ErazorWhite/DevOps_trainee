@@ -37,6 +37,6 @@ Import-Module WebAdministration
 
 ## Authors
 
-* **Alexey Gusak** - *Building the project, preparation of box.* - [ErazorWhite](https://github.com/ErazorWhite)
+* **Alexey Gusak** - *Building the project, creating of custom box with Microsoft Server 2016.* - [ErazorWhite](https://github.com/ErazorWhite)
 * **Elena Shynkarenko** - *Coding ASP.NET MVC Application* - [LenaShy](https://github.com/LenaShy)
 
