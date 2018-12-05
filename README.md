@@ -6,6 +6,7 @@ This project was created to automate the continuous integration into the develop
 
 - Vagrant [v 2.2.2 recommended]
 - Oracle VirtualBox [v 5.2.22]
+- MSSQL - EXPRESS General Availability;
 - Git
 
 ### Installing
